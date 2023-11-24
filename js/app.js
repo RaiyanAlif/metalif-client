@@ -1,2 +1,2 @@
-const str = new Date().toLocaleString('en-US', { timeZone: 'Asia/Jakarta' });
-console.log(str);
+const year = document.getElementById("current-year");
+year.innerText = new Date().getFullYear();

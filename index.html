@@ -40,14 +40,14 @@
         <nav class="w-4/5 h-full flex justify-between items-center font-bebas">
             <h1 class="text-3xl">Metalif</h1>
             <ul class="flex gap-x-5 text-xl hidden md:flex">
-                <li class="cursor-pointer">Home</li>
-                <li class="cursor-pointer">About Us</li>
-                <li class="cursor-pointer">Services</li>
+                <a href="#home" class="cursor-pointer">Home</a>
+                <a href="#about-us" class="cursor-pointer">About Us</a>
+                <a href="#services" class="cursor-pointer">Services</a>
             </ul>
         </nav>
     </header>
 
-    <main>
+    <main id="home">
         <!-- Landing Section -->
         <section class="h-screen bg-[url('./images/banner.jpg')] bg-cover flex items-center">
             <div class="mx-10 font-bebas w-full md:w-1/2 text-white">
@@ -63,7 +63,7 @@
         </section>
 
         <!-- About Us -->
-        <section class="p-10">
+        <section id="about-us" class="p-10">
             <div class="border-2 border-offBlack p-10">
                 <div class="lg:flex gap-x-10">
                     <div
@@ -120,7 +120,7 @@
         </section>
 
         <!-- our movies -->
-        <section class="bg-darkGray h-full w-full p-10">
+        <section id="services" class="bg-darkGray h-full w-full p-10">
 
             <!-- section header -->
             <div class="font-bebas text-white">

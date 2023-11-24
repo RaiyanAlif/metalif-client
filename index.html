@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:wght@300;400;500&display=swap"
+        rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+
+                    colors: {
+                        yellow: "#FECC02",
+                        offBlack: "#131313",
+                        darkGray: "#4E4E4E",
+                    },
+
+                    fontFamily: {
+                        bebas: ['Bebas Neue', 'cursive'],
+                        montserrat: ["montserrat", "sans-serif"],
+                    }
+                }
+            }
+        }
+    </script>
+
+</head>
+
+<body>
+    <!-- <h1 class="text-7x bg-purple-500 ml-10">Jhaka naka production</h1>
+    <h1 class="text-7xl ">Jhaka naka production</h1>
+    <h1 class="text-7xl font-mono">Jhaka naka production</h1>
+    <h1 class="text-7xl font-bebas">Jhaka naka production</h1>
+    <h1 class="text-7xl font-bebas text-red-700">Jhaka naka production</h1>
+    <h1 class="text-7xl font-bebas text-yellow">Jhaka naka production</h1>
+    <h1 class="text-7xl font-montserrat">Jhaka naka production</h1> -->
+
+    <!-- Navbar -->
+    <header class="w-full h-20 flex justify-center absolute bg-white">
+        <nav class="w-4/5 h-full flex justify-between items-center font-bebas">
+            <h1 class="text-3xl">Jhaka Naka Production</h1>
+            <ul class="flex gap-x-5 text-xl hidden md:flex">
+                <li class="cursor-pointer">About Us</li>
+                <li class="cursor-pointer">Our Movies</li>
+                <li class="cursor-pointer">Services</li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Landing Section -->
+        <section class="h-screen bg-[url('./images/banner.jpg')] bg-cover flex items-center">
+            <div class="mx-10 font-bebas w-full md:w-1/2 text-white">
+                <p>Movie production studio</p>
+                <h1 class="md:text-7xl text-5xl">FILMS MADE TO</h1>
+                <h1 class="md:text-7xl text-5xl text-yellow">PERFECTION</h1>
+                <p class="font-montserrat mt-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto sint
+                    voluptates doloremque
+                    expedita
+                    voluptatibus iusto hic consequatur, sapiente nulla rerum!</p>
+                <button
+                    class="border-2 px-5 py-2 text-xl mt-10 hover:bg-yellow hover:text-black hover:border-yellow transition-all">Discover
+                    More</button>
+            </div>
+        </section>
+
+        <!-- About Us -->
+        <section class="p-10">
+            <div class="border-2 border-offBlack p-10">
+                <div class="lg:flex gap-x-10">
+                    <div
+                        class="w-full lg:w-1/2 h-[300px] md:h-[500px] bg-[url('./images/camera-man.jpg')] bg-cover bg-center flex justify-center items-end mb-10">
+                        <h1
+                            class="font-bebas text-xl md:text-4xl text-offBlack bg-white w-11/12 text-center drop-shadow-2xl py-2 rounded-md -mb-6">
+                            23
+                            years of
+                            Experience</h1>
+                    </div>
+                    <div class="w-full lg:w-1/2 h-full font-bebas">
+                        <p>ABOUT US</p>
+                        <h1 class="md:text-7xl text-5xl">Filming Experience</h1>
+                        <h1 class="md:text-7xl text-5xl">Just Got Better</h1>
+                        <p class="font-montserrat mt-10">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                            Beatae enim
+                            obcaecati officiis at
+                            ipsam perferendis. Dolorem distinctio dolores atque adipisci quia assumenda qui quos
+                            deserunt, sed exercitationem, sapiente cupiditate cum animi minima, iste perferendis magni
+                            aperiam consequatur rem. Dolorem, temporibus.</p>
+                        <button
+                            class="border-2 border-black font-bebas px-5 py-2 text-xl mt-10 hover:bg-yellow hover:text-black hover:border-yellow transition-all">Discover
+                            More</button>
+                    </div>
+                </div>
+                <div class="grid lg:grid-cols-3 gap-x-20 mt-10">
+                    <div class="border-t-4 border-offBlack w-full lg:mb-0 mb-10">
+                        <h1 class="font-bebas md:text-5xl text-3xl mt-5">OUR VISION</h1>
+                        <p class="font-montserrat">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                            Necessitatibus
+                            nobis ratione odio eius
+                            eveniet sapiente sequi quos doloribus in. Minima!</p>
+
+                    </div>
+                    <div class="border-t-4 border-offBlack w-full lg:mb-0 mb-10">
+                        <h1 class="font-bebas md:text-5xl text-3xl mt-5">OUR Mission</h1>
+                        <p class="font-montserrat">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                            Necessitatibus
+                            nobis ratione odio eius
+                            eveniet sapiente sequi quos doloribus in. Minima!</p>
+
+                    </div>
+                    <div class="border-t-4 border-offBlack w-full">
+                        <h1 class="font-bebas md:text-5xl text-3xl mt-5">OUR Motto</h1>
+                        <p class="font-montserrat">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                            Necessitatibus
+                            nobis ratione odio eius
+                            eveniet sapiente sequi quos doloribus in. Minima!</p>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- our movies -->
+        <section class="bg-darkGray h-full w-full p-10">
+
+            <!-- section header -->
+            <div class="font-bebas text-white">
+                <p>OUR MOVIES</p>
+                <div class="md:flex justify-between items-center">
+                    <h1 class="md:text-7xl text-5xl">MOvie collection</h1>
+                    <button
+                        class="border-2 text-white font-bebas px-5 py-2 text-xl hover:bg-yellow hover:text-black hover:border-yellow transition-all md:mt-0 mt-5">See
+                        more movies</button>
+                </div>
+            </div>
+
+            <!-- movies -->
+
+            <div class="mt-10 grid lg:grid-cols-4 md:grid-cols-2 gap-10">
+
+                <div class="border-2 border-white w-full lg:h-[350px] md:h-[500px] h-[280px] p-5">
+                    <a href="https://www.imdb.com/title/tt6723592/?ref_=fn_al_tt_1" target="_blank">
+                        <div
+                            class="w-full h-full bg-cover bg-center flex justify-center items-center  bg-[url('./images/tenet.jpg')] group relative cursor-pointer">
+                            <div
+                                class="h-full w-full absolute top-0 bottom-0 left-0 right-0 bg-black opacity-75 hidden z-0 group-hover:block">
+                            </div>
+                            <h1 class="font-bebas text-3xl text-white z-10 hidden group-hover:block">
+                                tenet</h1>
+                        </div>
+                    </a>
+                </div>
+
+
+                <div class="border-2 border-white w-full lg:h-[350px] md:h-[500px] h-[280px] p-5">
+                    <a href="https://www.imdb.com/title/tt0816692/" target="_blank">
+                        <div
+                            class="w-full h-full bg-cover bg-center flex justify-center items-center  bg-[url('./images/interstellar.jpg')] group relative cursor-pointer">
+                            <div
+                                class="h-full w-full absolute top-0 bottom-0 left-0 right-0 bg-black opacity-75 hidden z-0 group-hover:block">
+                            </div>
+                            <h1 class="font-bebas text-3xl text-white z-10 hidden group-hover:block">
+                                interstellar</h1>
+                        </div>
+                    </a>
+                </div>
+                <div class="border-2 border-white w-full lg:h-[350px] md:h-[500px] h-[280px] p-5">
+                    <a href="https://www.imdb.com/title/tt1375666/?ref_=fn_al_tt_1" target="_blank">
+                        <div
+                            class="w-full h-full bg-cover bg-center flex justify-center items-center  bg-[url('./images/inception.jpg')] group relative cursor-pointer">
+                            <div
+                                class="h-full w-full absolute top-0 bottom-0 left-0 right-0 bg-black opacity-75 hidden z-0 group-hover:block">
+                            </div>
+                            <h1 class="font-bebas text-3xl text-white z-10 hidden group-hover:block">inception</h1>
+                        </div>
+                    </a>
+                </div>
+                <div class="border-2 border-white w-full lg:h-[350px] md:h-[500px] h-[280px] p-5">
+                    <a href="https://www.imdb.com/title/tt4332232/?ref_=fn_al_tt_1" target="_blank">
+                        <div
+                            class="w-full h-full bg-cover bg-center flex justify-center items-center  bg-[url('./images/fractured.jpg')] group relative cursor-pointer">
+                            <div
+                                class="h-full w-full absolute top-0 bottom-0 left-0 right-0 bg-black opacity-75 hidden z-0 group-hover:block">
+                            </div>
+                            <h1 class="font-bebas text-3xl text-white z-10 hidden group-hover:block">fractured</h1>
+                        </div>
+                    </a>
+                </div>
+                <!-- <div class="border-2 border-white w-full h-[350px] p-5">
+                    <div class="w-full h-full bg-[url('./images/interstellar.jpg')] bg-cover bg-center"></div>
+                </div>
+                <div class="border-2 border-white w-full h-[350px] p-5">
+                    <div class="w-full h-full bg-[url('./images/inception.jpg')] bg-cover bg-center"></div>
+                </div>
+                <div class="border-2 border-white w-full h-[350px] p-5">
+                    <div class="w-full h-full bg-[url('./images/fractured.jpg')] bg-cover bg-center"></div>
+                </div> -->
+            </div>
+        </section>
+    </main>
+</body>
+
+</html>
